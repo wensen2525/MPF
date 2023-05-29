@@ -1,0 +1,79 @@
+body{
+      font-family: 'Poppins', sans-serif;
+}
+
+
+#side_nav{
+      background: #0F181F;
+      min-height: 100vh;
+      max-height: 100vh;
+}
+
+.sidebar{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      border-radius: 0 30px 30px 0;
+}
+
+.sidebar_kecil{
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+}
+
+.nav-button{
+      border-radius: 0 50% 50% 0;
+}
+
+.content{
+      min-height: 100vh;
+      width: 100%;
+}
+
+// forum
+.shape{
+      background-color: #00395C;
+      width: 4rem;
+      height: 100%;
+      float: left;
+}
+.bookmark.btn-primary.active{
+      background-color: #0F181F;
+      text-align: left;
+      width: 100%;
+      height: 100%;
+}
+.bg-custom{
+      background-color: #0F181F;
+}
+.list-group-item:hover{
+      background-color: #00395C;
+      transition: ease-in-out 600ms;
+}
+.bi-bookmark-fill{
+      color:#D9D9D9;
+}
+.bi-bookmark-fill.active{
+      color: #00395C;
+}
+.bi-bookmark-fill.dark{
+      color: #00395C;
+}
+
+//content forum
+.custom-line-spacing {
+      line-height: 1.8rem;
+}
+.custom-image-size {
+      width: 300px;
+      height: auto;
+}
+.back-button{
+      background-color: #0F181F;
+      border-radius: 60px;
+      padding-inline: 3vh;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin-bottom: 3rem;
+      margin-right: 5rem;
+}
